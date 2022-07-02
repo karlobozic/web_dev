@@ -1,0 +1,28 @@
+{{> main-menu active="login"}}
+
+<section class="section">
+    <div class="hero-body has-text-centered">
+  <h1 class="title">Log in</h1>
+  </div>
+  <div class="columns is-mobile is-centered">
+
+  <div class="columns is-vcentered">
+
+                <div class="box box-link-hover-shadow">
+<div class="title p-3 is-flex">
+  <form action="/authenticate" method="POST">
+    <div class="field">
+      <label class="label">Email</label> <input class="input is-medium is-rounded" type="text" placeholder="Enter email" name="email">
+    </div>
+    <div class="field">
+      <label class="label">Password</label> <input class="input is-medium is-rounded" type="password" placeholder="Enter Password" name="password">
+    </div>
+    <div class="field is-grouped">
+      <button class="button is-block is-fullwidth is-primary is-medium is-rounded" type="submit">Log in</button>
+    </div>
+  </form>
+    </div>
+
+  </div>
+  </div>
+</section>

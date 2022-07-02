@@ -1,0 +1,28 @@
+{
+  "rivers": [
+    {
+      "name": "Test",
+      "description": "sese",
+      "longitude": 24,
+      "latitude": 42,
+      "_id": "ad5a1575-b670-4849-8e2d-189bb74bc52e",
+      "poiid": "51c46a09-226c-4545-974b-a1cb715e9314"
+    },
+    {
+      "name": "test",
+      "description": "sdwfw",
+      "longitude": 343,
+      "latitude": 23,
+      "_id": "653d9a22-3528-49af-bc14-15aed6f03ede",
+      "poiid": "51c46a09-226c-4545-974b-a1cb715e9314"
+    },
+    {
+      "name": "Test1",
+      "description": "Test1",
+      "longitude": 1,
+      "latitude": 1,
+      "_id": "9a27dc5c-49b2-4eae-8761-2dc64dd1ff6d",
+      "poiid": "c35264b5-c8f1-439d-b976-03f57c68ac4e"
+    }
+  ]
+}

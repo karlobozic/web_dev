@@ -1,0 +1,54 @@
+<table class="table is-fullwidth">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Longitude</th>
+      <th>Latitude</th>
+      <th>Delete</th>
+      <th>Image</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each poi.rivers}}
+      <tr>
+        <td>
+          {{name}}
+        </td>
+        <td>
+          {{description}}
+        </td>
+        <td>
+          {{longitude}}
+        </td>
+        <td>
+          {{latitude}}
+        </td>
+        <td>
+          <a href="/poi/{{../poi._id}}/deleteriver/{{_id}}" >
+            <i class="delete is-large"></i>
+          </a>
+          
+        </td>
+                <td>
+        <form action="/poi/{{_id}}/uploadimage" method="POST" enctype="multipart/form-data">
+      <div id="file-select" class="file has-name is-fullwidth">
+        <label class="file-label"> <input class="file-input" name="imagefile" type="file" name="resume" accept="image/png, image/jpeg">
+          <span class="file-cta">
+            <span class="file-icon">
+              <i class="fas fa-upload"></i>
+            </span>
+            <span class="file-label">
+              Choose a file…
+            </span>
+           </span>
+          <span class="file-name"></span>
+        </label>
+        <button type="submit" class="button is-info">Upload</button>
+      </div>
+    </form>
+            </td>
+      </tr>
+    {{/each}}
+  </tbody>
+</table>

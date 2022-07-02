@@ -1,0 +1,24 @@
+{
+  "poi": [
+    {
+      "userid": "567b477d-335f-4486-a491-fccf3cb65e17",
+      "title": "North",
+      "_id": "c35264b5-c8f1-439d-b976-03f57c68ac4e"
+    },
+    {
+      "userid": "567b477d-335f-4486-a491-fccf3cb65e17",
+      "title": "South",
+      "_id": "51c46a09-226c-4545-974b-a1cb715e9314"
+    },
+    {
+      "userid": "567b477d-335f-4486-a491-fccf3cb65e17",
+      "title": "East",
+      "_id": "a4db0090-7468-4341-8583-5a9d53205a74"
+    },
+    {
+      "userid": "567b477d-335f-4486-a491-fccf3cb65e17",
+      "title": "West",
+      "_id": "8c21a0e7-a2d4-4875-8e87-a1959bf803e9"
+    }
+  ]
+}

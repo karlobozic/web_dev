@@ -1,0 +1,51 @@
+<table class="table is-striped is-fullwidth">
+  <thead>
+    <tr>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Email</th>
+    </tr>
+  <tbody>
+          <div class="columns">
+    <div class="column is-three-quarters">
+    {{#each users}}
+      <tr>
+        <td>
+          {{firstName}}
+        </td>
+        <td>
+          {{lastName}}
+        </td>
+        <td>
+          {{email}}
+         </td>
+        <td>
+          <a href="/admin/deleteuser/{{_id}}">
+            <i class="delete is-large"></i>
+          </a>
+        </td>
+
+      </tr>
+    {{/each}}
+    </div>
+  </tbody>
+</table>
+
+
+<table class="table is-striped is-fullwidth">
+  <thead>
+    <tr>
+      <th># of POI entered respective to the table above</th>
+    </tr>
+    <tbody>
+      {{#each num}}
+        <tr>
+          <td>
+            {{this}}
+          </td>
+        </tr>
+      {{/each}}
+      </div>
+    </div>
+  </tbody>
+</table>
