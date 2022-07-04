@@ -11,3 +11,9 @@ The user can delete the rivers also and this can all be seen in the map page
 The admin has a admin dashboard where they can see the registered users and can see how many rivers each user added. They can also delete users from the dashboard
 
 Using Swagger, this helps to build and test restful web services. Also used JWT.
+
+
+To login to admin:
+
+Username: admin@admin.ie
+Password: admin
